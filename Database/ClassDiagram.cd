@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Database.Config.Config" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAABAACAAIAAAgBAAAQAAgAAAQIAAAAgAAAEAA=</HashCode>
+      <FileName>Config\Config.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Database.Config.ConfigData" Collapsed="true">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAIAAAABAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Config\ConfigData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Database.Core" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIEAAAIAAAAAAAAAgAQAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Database.MyDatabase" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Database.Exceptions.ConfigDirectoryNotFound" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\ConfigDirectoryNotFound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Database.Exceptions.TableDataNotFound" Collapsed="true">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\TableDataNotFound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Database.Exceptions.TableNotFound" Collapsed="true">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\TableNotFound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Database.Table.AbstractTable" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAQAIAAAAEAAAUwAAEAAAAgAAAACAAAAAA=</HashCode>
+      <FileName>Table\AbstractTable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Database.Table.Table&lt;T&gt;" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEGIABIAQESBACABUBAUQAEAAABAAAoACAAQAAEE=</HashCode>
+      <FileName>Table\Table.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Database.Table.TableCompare&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Table\TableCompare.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Database.Table.Tables" Collapsed="true">
+    <Position X="3.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIQAAAABAACAABACAIAAAQAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Table\Tables.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Database.Config.Interfaces.IConfig" Collapsed="true">
+    <Position X="6.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAABAAAAAAgAAAQIAAAAgAAAEAA=</HashCode>
+      <FileName>Config\Interfaces\IConfig.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Database.Table.Interfaces.ITable" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAIAAAAAAAAUQAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Table\Interfaces\ITable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Database.Table.Interfaces.ITableData&lt;T&gt;" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAABAIAA=</HashCode>
+      <FileName>Table\Interfaces\ITableData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

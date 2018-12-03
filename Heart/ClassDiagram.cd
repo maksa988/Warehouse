@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Heart.Brain" Collapsed="true">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAkCAAECAAQAAkAkAAAAQAAAAAAAAAAAACAAAAUAA=</HashCode>
+      <FileName>Brain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Heart.Controllers.CategoryController" Collapsed="true">
+    <Position X="3.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAACAAAAAAAwBAAAAQBAAAAAAAAAACAgAAAAAgAAA=</HashCode>
+      <FileName>Controllers\CategoryController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Heart.Controllers.Controller" Collapsed="true">
+    <Position X="3.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgCAAAAAACQDAAAAQBAAAAAAAAAACAgAAAAAgAAA=</HashCode>
+      <FileName>Controllers\Controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Heart.Controllers.GoodController" Collapsed="true">
+    <Position X="6" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAACAAAAAAAwBAAAAQBAAAAQAAAgACAgAAAAAkAAA=</HashCode>
+      <FileName>Controllers\GoodController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Heart.Controllers.SupplierController" Collapsed="true">
+    <Position X="1.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAACAAAAAAAwBAAAAQBAAAAAAAAAACAgAAAAAgAAA=</HashCode>
+      <FileName>Controllers\SupplierController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Heart.Data.AbstractData" Collapsed="true">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAQAAgAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Data\AbstractData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Heart.Data.Category" Collapsed="true">
+    <Position X="3.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Data\Category.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Heart.Data.Good" Collapsed="true">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAACAAASAAgAAAAAAAAAAAABBIAA=</HashCode>
+      <FileName>Data\Good.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Heart.Data.Supplier" Collapsed="true">
+    <Position X="1.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAACAAAAAAgAAAAAAAAAAAABAIAA=</HashCode>
+      <FileName>Data\Supplier.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Heart.Interfaces.ICommunication" Collapsed="true">
+    <Position X="10.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAoAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICommunication.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Heart.Interfaces.IData" Collapsed="true">
+    <Position X="10.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAQAAgAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Interfaces\IData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

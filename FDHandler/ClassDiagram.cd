@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="FDHandler.DirectoryHandler" Collapsed="true">
+    <Position X="6" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAACAAIEAAAAAAAAAAQCAAAAAAAABAEAgQA=</HashCode>
+      <FileName>DirectoryHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FDHandler.FileHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACACACIAAAIAAAAgAAAACCAAAAkACQEAAAA=</HashCode>
+      <FileName>FileHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FDHandler.Exceptions.DirectoryAlreadyExists" Collapsed="true">
+    <Position X="8.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\DirectoryAlreadyExists.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FDHandler.Serialization.DataSerialize" Collapsed="true">
+    <Position X="6" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAACAAAAAAAAAAAAAAAAAAAAQAAAAQ=</HashCode>
+      <FileName>Serialization\DataSerialize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FDHandler.Serialization.Serializer" Collapsed="true">
+    <Position X="4" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAIAAQcAAAAIAgAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Serialization\Serializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FDHandler.Serialization.Providers.BinarySerializeProvider" Collapsed="true">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAEAAQA=</HashCode>
+      <FileName>Serialization\Providers\BinarySerializeProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FDHandler.Serialization.Providers.JsonSerializeProvider" Collapsed="true">
+    <Position X="10.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Serialization\Providers\JsonSerializeProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FDHandler.Serialization.Providers.SerializeProvider" Collapsed="true">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAIAAAAEABAA=</HashCode>
+      <FileName>Serialization\Providers\SerializeProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FDHandler.Serialization.Providers.SoapSerializePrivoder" Collapsed="true">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAEAAQA=</HashCode>
+      <FileName>Serialization\Providers\SoapSerializeProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FDHandler.Serialization.Providers.XMLSerializeProvider" Collapsed="true">
+    <Position X="8.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Serialization\Providers\XMLSerializeProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
